@@ -1,4 +1,4 @@
-# Contacts list
+# Contact list
 	
 	npm install
 	npm start
