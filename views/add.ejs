@@ -1,0 +1,17 @@
+<%- include('header') -%>
+<br>
+<div class="container">
+    <h1><%= title %></h1>
+    <form action="/add-contact" method="post">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Enter name" required>
+        </div>
+        <div class="form-group">
+            <label for="tel">Phone</label>
+            <input type="text" class="form-control" id="tel" name="tel" placeholder="+380..." required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+<%- include('footer') -%>
